@@ -1,0 +1,138 @@
+.PatroCenter {
+
+    text-align: center;
+}
+
+#NepaliPatroElement {
+
+    width: 100%;
+}
+
+#NepaliPatro th, #NepaliPatro td {
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#NepaliPatro .Next, #NepaliPatro .Prev {
+
+    cursor: pointer;
+
+}
+
+#NepaliPatro .Next:hover, #NepaliPatro .Prev:hover {
+
+    color: #fff;
+
+}
+
+#NepaliPatro td.today {
+
+    background: #004DFF;
+    color: #fff;
+}
+
+#NepaliPatro td {
+
+    position: relative;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.week_holiday {
+
+    background: #CA4E4E;
+    color: #fff;
+    font-weight: bold;
+}
+
+#NepaliPatro .popoverDate {
+
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    top: 70%;
+    z-index: 10000;
+    border-radius: 5px;
+    background: green;
+    box-shadow: 2px 2px 2px black;
+    left: 0;
+
+}
+
+#NepaliPatro .popoverDate span {
+    font-size: 12px;
+    color: #fff;
+
+    line-height: 19px;
+    display: block;
+
+}
+
+.NepaliPatroElement table {
+
+    width: 100%;
+
+    border: none;
+}
+
+.NepaliPatroElement table td, .NepaliPatroElement table th {
+
+    border-left: 1px solid #e1e1e1;
+    border-right: 0 !important;
+    border-top: 0 !important;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0.4em;
+    font-weight: normal;
+
+}
+
+/* version 2 */
+table#NepaliPatro thead tr:first-child th:first-child:hover {
+    cursor: pointer;
+}
+
+table#NepaliPatro th.Next {
+
+    background: url("../images/next.png") no-repeat center;
+}
+
+table#NepaliPatro th.Next:hover {
+    background: url("../images/next_hover.png") no-repeat center;
+
+}
+
+table#NepaliPatro th.Prev {
+
+    background: url("../images/prev.png") no-repeat center;
+}
+
+table#NepaliPatro th.Prev:hover {
+    background: url("../images/prev_hover.png") no-repeat center;
+
+}
+
+#NepaliPatro tbody td {
+    cursor: pointer;
+}
+
+.PatroCenter.CurrentDateAndMonth {
+    cursor: pointer;
+}
+
+#NepaliPatro .yearSelectionDropDown, #NepaliPatro .monthSelectionDropDown {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin-right: 5px;
+    height: 26px;
+    padding: 0 0px;
+    text-align: center;
+}
